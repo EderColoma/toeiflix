@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import categoriaRepository from '../../../repositories/categoria';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -20,21 +21,11 @@ function CadastroCategoria() {
   }
 
   function handleChange(e) {
-    // const{getAttribute, value} = e.target;
     setValor(e.target.getAttribute('name'), e.target.value);
   }
 
   useEffect(() => {
-    const URL = window.location.href.includes('localhost') ? 'http://localhost:3000/categorias' : 'https://toeiflix.herokuapp.com/categorias';
-    fetch(URL)
-      .then(async (respostaDoServer) => {
-        if (respostaDoServer.ok) {
-          const resposta = await respostaDoServer.json();
-          setCategorias(resposta);
-          return;
-        }
-        throw new Error('Não foi possível pegar os dados');
-      });
+    categoriaRepository.getAllWithVideos();
   }, []);
 
   return (
