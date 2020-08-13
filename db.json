@@ -2,202 +2,300 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Front End",
-      "cor": "#6BD1FF",
-      "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
+      "titulo": "Winspector",
+      "cor": "grey"
     },
     {
       "id": 2,
-      "titulo": "Back End",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      }
-    },
-    {
-      "id": 3,
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
-      }
-    },
-    {
-      "id": 4,
-      "titulo": "Filmes",
+      "titulo": "Changérion",
       "cor": "orange"
     },
     {
+      "id": 3,
+      "titulo": "Machineman",
+      "cor": "darkturquoise"
+    },
+    {
+      "id": 4,
+      "titulo": "Poitrine",
+      "cor": "hotpink"
+    },
+    {
       "id": 5,
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
+      "titulo": "Chukana Paipai",
+      "cor": "deeppink"
     }
   ],
   "videos": [
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "Episode 01: The Runaway Baby",
+      "url": "https://www.youtube.com/watch?v=Lq4V7pGhLsg"
     },
     {
       "id": 2,
       "categoriaId": 1,
-      "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+      "titulo": "Episode 02: Strange R/C",
+      "url": "https://www.youtube.com/watch?v=ZKac-3HSEOA"
     },
     {
       "id": 3,
       "categoriaId": 1,
-      "titulo": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+      "titulo": "Episode 03: Cheers to Friendship",
+      "url": "https://www.youtube.com/watch?v=JM4JtXtbKNo"
     },
     {
       "id": 4,
       "categoriaId": 1,
-      "titulo": "Pare de chutar e aprenda a display: inline #01",
-      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+      "titulo": "Episode 04: The Life Taking Thief",
+      "url": "https://www.youtube.com/watch?v=7GWsOGCV_NU"
     },
     {
       "id": 5,
       "categoriaId": 1,
-      "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+      "titulo": "Episode 05: Attack! The Giant Bird",
+      "url": "https://www.youtube.com/watch?v=_lunmd8x_AU"
     },
     {
       "id": 6,
       "categoriaId": 1,
-      "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+      "titulo": "Episode 06: The Couple That Reverted to Children",
+      "url": "https://www.youtube.com/watch?v=ca6KUR2_BhI"
     },
     {
       "id": 7,
       "categoriaId": 1,
-      "titulo": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+      "titulo": "Episode 07: The Happy, Praying Holy Girl",
+      "url": "https://www.youtube.com/watch?v=fJptbmfQjDc"
     },
     {
       "id": 8,
-      "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+      "categoriaId": 1,
+      "titulo": "Episode 08: Police Agents in Family",
+      "url": "https://www.youtube.com/watch?v=0KJJpFOPUrI"
     },
     {
       "id": 9,
-      "categoriaId": 2,
-      "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+      "categoriaId": 1,
+      "titulo": "Episode 09: The Bomb-Setting Dog",
+      "url": "https://www.youtube.com/watch?v=N_UCzYV2iKM"
     },
     {
       "id": 10,
-      "categoriaId": 2,
-      "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+      "categoriaId": 1,
+      "titulo": "Episode 10: Revenge of the Adults",
+      "url": "https://www.youtube.com/watch?v=6H_3LwKNtCE"
     },
     {
       "id": 11,
-      "categoriaId": 2,
-      "titulo": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+      "categoriaId": 1,
+      "titulo": "Episode 11: Ryōta's First Love Letter",
+      "url": "https://www.youtube.com/watch?v=8mO13Ofi2Cg"
     },
     {
       "id": 12,
-      "categoriaId": 2,
-      "titulo": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+      "categoriaId": 1,
+      "titulo": "Episode 12: My Robot Friend",
+      "url": "https://www.youtube.com/watch?v=oXJDUJ5XhSE"
     },
     {
       "id": 13,
-      "categoriaId": 3,
-      "titulo": "Teste de Turing",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+      "categoriaId": 1,
+      "titulo": "Episode 13: Ryōma is Dead!?",
+      "url": "https://www.youtube.com/watch?v=Q0TU9lZa7Fw"
     },
     {
       "id": 14,
-      "categoriaId": 3,
-      "titulo": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+      "categoriaId": 1,
+      "titulo": "Episode 14: The Death-God Moss' Counterattack!!",
+      "url": "https://www.youtube.com/watch?v=KMHXVmfTMso"
     },
     {
       "id": 15,
-      "categoriaId": 3,
-      "titulo": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+      "categoriaId": 1,
+      "titulo": "Episode 15: Ryōma! Destroy Masaki",
+      "url": "https://www.youtube.com/watch?v=GdMPot-eVCY"
     },
     {
       "id": 16,
-      "categoriaId": 3,
-      "titulo": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+      "categoriaId": 1,
+      "titulo": "Episode 16: I Love You, Walter",
+      "url": "https://www.youtube.com/watch?v=HNKsNIw5uaQ"
     },
     {
       "id": 17,
-      "categoriaId": 4,
-      "titulo": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+      "categoriaId": 1,
+      "titulo": "Episode 17: The Scary Space Creatures",
+      "url": "https://www.youtube.com/watch?v=2-_W4CaLv0I"
     },
     {
       "id": 18,
-      "categoriaId": 4,
-      "titulo": "Gattaca",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+      "categoriaId": 1,
+      "titulo": "Episode 18: Super Abilities! The Determined Girl",
+      "url": "https://www.youtube.com/watch?v=UK32AqMIAJo"
     },
     {
       "id": 19,
-      "categoriaId": 4,
-      "titulo": "A Chegada",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+      "categoriaId": 1,
+      "titulo": "Episode 19: The Bridge of Love and Courage",
+      "url": "https://www.youtube.com/watch?v=bN16Ktw2q3M"
     },
     {
       "id": 20,
-      "categoriaId": 4,
-      "titulo": "Feitiço do Tempo",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+      "categoriaId": 1,
+      "titulo": "Episode 20: Burning K.O. Punch!",
+      "url": "https://www.youtube.com/watch?v=qOnx_wjoaSM"
     },
     {
-      "id": 21,
-      "categoriaId": 5,
-      "titulo": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+      "titulo": "Episode 21: Tears And the Fatal Ball",
+      "url": "https://www.youtube.com/watch?v=kIuh6aKp450",
+      "categoriaId": 1,
+      "id": 21
     },
     {
       "id": 22,
-      "categoriaId": 5,
-      "titulo": "Assassins Creed Valhalla",
-      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+      "categoriaId": 1,
+      "titulo": "Episode 22: The Murderer Who Died Twice",
+      "url": "https://www.youtube.com/watch?v=gpj2hhNnBkw"
     },
     {
       "id": 23,
-      "categoriaId": 5,
-      "titulo": "God of War 4",
-      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+      "categoriaId": 1,
+      "titulo": "Episode 23: Father's Comic Postcard",
+      "url": "https://www.youtube.com/watch?v=COE92vs8w2U"
     },
     {
       "id": 24,
+      "categoriaId": 1,
+      "titulo": "Episode 24: My Piiko-chan",
+      "url": "https://www.youtube.com/watch?v=PpChpEbSZEw"
+    },
+    {
+      "id": 25,
+      "categoriaId": 1,
+      "titulo": "Episode 25: The Robot Which Cries in the Rain",
+      "url": "https://www.youtube.com/watch?v=Rp11d9zA70k"
+    },
+    {
+      "id": 26,
+      "categoriaId": 1,
+      "titulo": "Episode 26: The Sad Girl's Journey",
+      "url": "https://www.youtube.com/watch?v=EXwzHQJO8Hs"
+    },
+    {
+      "titulo": "Episode 01: A Hero!! Me?",
+      "url": "https://www.youtube.com/watch?v=Dek3BI68tMo",
+      "categoriaId": 2,
+      "id": 27
+    },
+    {
+      "titulo": "Episode 02: Twinkle, Twinkle, my Light Brain",
+      "url": "https://www.youtube.com/watch?v=eMlzTWVnBuU",
+      "categoriaId": 2,
+      "id": 28
+    },
+    {
+      "titulo": "Episode 01: The White Textbook Case",
+      "url": "https://www.youtube.com/watch?v=K_K-QLfT-J8",
+      "categoriaId": 3,
+      "id": 29
+    },
+    {
+      "titulo": "Episode 02: Rainbow-Colored Diamond Tears",
+      "url": "https://www.youtube.com/watch?v=qSR8VgwyBKA",
+      "categoriaId": 3,
+      "id": 30
+    },
+    {
+      "titulo": "Episode 01: A God's Gift",
+      "url": "https://www.youtube.com/watch?v=LP9pvj0rE18&list=PL4rzcHfrDGhlihxqxvE2a3wh8yFYUpIRb&index=5",
+      "categoriaId": 4,
+      "id": 31
+    },
+    {
+      "titulo": "Episode 02: The Police Department's Shrewd Female Cop",
+      "url": "https://www.youtube.com/watch?v=RO8mnoxFlss&list=PL4rzcHfrDGhlihxqxvE2a3wh8yFYUpIRb&index=6",
+      "categoriaId": 4,
+      "id": 32
+    },
+    {
+      "titulo": "Episode 01: She Came To This Town",
+      "url": "https://www.youtube.com/watch?v=7wXddH1MgUE",
       "categoriaId": 5,
-      "titulo": "Resident Evil 8",
-      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+      "id": 33
     },
     {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 1,
-      "id": 25
+      "titulo": "Episode 02: The Secret of the Chinese Magic Realm",
+      "url": "https://www.youtube.com/watch?v=SavBE7OIFEo&t=8s",
+      "categoriaId": 5,
+      "id": 34
     },
     {
-      "titulo": "Aula 5",
-      "url": "https://www.youtube.com/watch?v=hhQ3RtvmfEg&feature=emb_logo",
+      "titulo": "Episode 03: The Incorrigible Troublemakers",
+      "url": "https://www.youtube.com/watch?v=jnrMX7VmRmc",
+      "categoriaId": 5,
+      "id": 35
+    },
+    {
+      "titulo": "Episode 04: Pai Pai Kidnapped",
+      "url": "https://www.youtube.com/watch?v=yQoFRObzaP0",
+      "categoriaId": 5,
+      "id": 36
+    },
+    {
+      "titulo": "Episode 05: The First Love",
+      "url": "https://www.youtube.com/watch?v=MpQ0Tvpi4Sg",
+      "categoriaId": 5,
+      "id": 37
+    },
+    {
+      "titulo": "Episode 27: The Star Summoning 100-Year-Old Beauty",
+      "url": "https://www.youtube.com/watch?v=UMLwGv7Nik0",
       "categoriaId": 1,
-      "id": 26
+      "id": 38
+    },
+    {
+      "titulo": "Episode 28: Fly! Yūko Rocket",
+      "url": "https://www.youtube.com/watch?v=Eua6PNklp5A",
+      "categoriaId": 1,
+      "id": 39
+    },
+    {
+      "titulo": "Episode 29: The Ghost of the Village",
+      "url": "https://www.youtube.com/watch?v=uh_gx3vPyk0",
+      "categoriaId": 1,
+      "id": 40
+    },
+    {
+      "titulo": "Episode 30: Mama... Mama, Help Me",
+      "url": "https://www.youtube.com/watch?v=NOZlWMbXQeA",
+      "categoriaId": 1,
+      "id": 41
+    },
+    {
+      "titulo": "Episode 31: The Pain of the Strongest Robo",
+      "url": "https://www.youtube.com/watch?v=lDIJwEktV2M",
+      "categoriaId": 1,
+      "id": 42
+    },
+    {
+      "titulo": "Episode 32: Onslaught Against the Police Station",
+      "url": "https://www.youtube.com/watch?v=2PLkWyZ1jec",
+      "categoriaId": 1,
+      "id": 43
+    },
+    {
+      "titulo": "Episode 33: Urashima Taro Awakens",
+      "url": "https://www.youtube.com/watch?v=67c8VwFFXnQ",
+      "categoriaId": 1,
+      "id": 44
+    },
+    {
+      "titulo": "Episode 34: Turnabout Grandma",
+      "url": "https://www.youtube.com/watch?v=Qveqti1hFHY",
+      "categoriaId": 1,
+      "id": 45
     }
   ]
 }

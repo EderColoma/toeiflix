@@ -5,7 +5,7 @@ import Slider, { SliderItem } from '../Slider';
 
 function Carousel({
   ignoreFirstVideo,
-  category,
+  category
 }) {
   const categoryTitle = category.titulo;
   const categoryColor = category.cor;
