@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+![JavaScript Badge](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=JavaScript)
 
 ## Available Scripts
 
