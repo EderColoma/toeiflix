@@ -1,5 +1,9 @@
 
+![React Badge](https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js)
+![React Badge](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
 ![JavaScript Badge](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=JavaScript)
+![HTML Badge](https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5)
+![CSS Badge](https://img.shields.io/badge/-CSS-black?style=flat-square&logo=css3)
 
 ## Available Scripts
 
