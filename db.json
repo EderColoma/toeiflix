@@ -24,6 +24,11 @@
       "id": 5,
       "titulo": "Chukana Paipai",
       "cor": "deeppink"
+    },
+    {
+      "id": 6,
+      "titulo": "Inazuman",
+      "cor": "#F6FC2A"
     }
   ],
   "videos": [
@@ -296,6 +301,73 @@
       "url": "https://www.youtube.com/watch?v=Qveqti1hFHY",
       "categoriaId": 1,
       "id": 45
+    },
+    {
+      "titulo": "Episode 35: Mother and Child's SOS!",
+      "url": "https://www.youtube.com/watch?v=hL1liK1p5y0&list=PL4rzcHfrDGhmAiEwfLM_kpSZaCEtOprtT&index=35",
+      "categoriaId": 1,
+      "id": 46
+    },
+    {
+      "titulo": "Episode 36: Biker's Father",
+      "url": "https://www.youtube.com/watch?v=uWd_pXXEZE4&list=PL4rzcHfrDGhmAiEwfLM_kpSZaCEtOprtT&index=36",
+      "categoriaId": 1,
+      "id": 47
+    },
+    {
+      "titulo": "Episode 37: Attack of the Amazoness",
+      "url": "https://www.youtube.com/watch?v=loMAhwP07QA&list=PL4rzcHfrDGhmAiEwfLM_kpSZaCEtOprtT&index=37",
+      "categoriaId": 1,
+      "id": 48
+    },
+    {
+      "titulo": "Episode 30: The Chosen Man",
+      "url": "https://www.youtube.com/watch?v=hDsMHthtli8&list=PL4rzcHfrDGhmAiEwfLM_kpSZaCEtOprtT&index=38",
+      "categoriaId": 1,
+      "id": 49
+    },
+    {
+      "titulo": "Episode 39: The Sad Old Thief",
+      "url": "https://www.youtube.com/watch?v=SETIlwjsafU&list=PL4rzcHfrDGhmAiEwfLM_kpSZaCEtOprtT&index=39",
+      "categoriaId": 1,
+      "id": 50
+    },
+    {
+      "titulo": "Episode 40: The Mutant of the Great Seto Bridge - Part 1",
+      "url": "https://www.youtube.com/watch?v=htHwLQvntTs&list=PL4rzcHfrDGhmAiEwfLM_kpSZaCEtOprtT&index=40",
+      "categoriaId": 1,
+      "id": 51
+    },
+    {
+      "titulo": "Episode 41: The Mutant of the Great Seto Bridge - Part 2",
+      "url": "https://www.youtube.com/watch?v=BC5yrxwneFo&list=PL4rzcHfrDGhmAiEwfLM_kpSZaCEtOprtT&index=41",
+      "categoriaId": 1,
+      "id": 52
+    },
+    {
+      "titulo": "Episode 42: The Treasonous Investigator",
+      "url": "https://www.youtube.com/watch?v=2GFJhKS1WHI&list=PL4rzcHfrDGhmAiEwfLM_kpSZaCEtOprtT&index=42",
+      "categoriaId": 1,
+      "id": 53
+    },
+    {
+      "titulo": "Episode 43: The Boy Who Became a Bomb",
+      "url": "https://www.youtube.com/watch?v=nGx026tk0AY&list=PL4rzcHfrDGhmAiEwfLM_kpSZaCEtOprtT&index=43",
+      "categoriaId": 1,
+      "id": 54
+    },
+    {
+      "titulo": "Episode 44: One-Day Only Performance",
+      "url": "https://www.youtube.com/watch?v=zL47svzhexo&list=PL4rzcHfrDGhmAiEwfLM_kpSZaCEtOprtT&index=44",
+      "categoriaId": 1,
+      "id": 55
+    }
+    ,
+    {
+      "titulo": "Episode 01: Horror of the Neo-Human Race: The Challenge of Banba!!",
+      "url": "https://www.youtube.com/watch?v=sFDtAwPjrUE",
+      "categoriaId": 6,
+      "id": 56
     }
   ]
 }
