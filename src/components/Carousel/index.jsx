@@ -5,12 +5,14 @@ import Slider, { SliderItem } from '../Slider';
 
 function Carousel({
   ignoreFirstVideo,
-  category
+  category,
+  onClick
 }) {
   const categoryTitle = category.titulo;
   const categoryColor = category.cor;
   const categoryExtraLink = category.link_extra;
   const { videos } = category;
+
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
@@ -38,6 +40,7 @@ function Carousel({
                 videoTitle={video.titulo}
                 videoURL={video.url}
                 categoryColor={categoryColor}
+                onClick={onClick}
               />
             </SliderItem>
           );

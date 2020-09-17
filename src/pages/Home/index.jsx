@@ -6,7 +6,19 @@ import PageDefault from '../../components/PageDefault';
 import categoriasRepository from '../../repositories/categoria';
 
 function Home() {
+  function getYouTubeId(youtubeURL) {
+    return youtubeURL
+      .replace(
+        /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/,
+        '$7',
+      );
+  }
+
   const [dadosIniciais, setDadosIniciais] = useState([]);
+  const [selectedVideoUrl, setSelectedVideoUrl] = useState('https://www.youtube.com/watch?v=Lq4V7pGhLsg');
+  const [selectedVideoTitle, setSelectedVideoTitle] = useState('Episode 01: The Runaway Baby');
+  const [youTubeID, setYoutubeId] = useState(getYouTubeId(selectedVideoUrl));
+  const [bgUrl, setBgUrl] = useState(`https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`);
 
   useEffect(() => {
     categoriasRepository.getAllWithVideos()
@@ -19,34 +31,33 @@ function Home() {
       });
   }, []);
 
+  function handleClick(videoTitle, videoURL) {
+    setSelectedVideoTitle(videoTitle);
+    setSelectedVideoUrl(videoURL);
+    setYoutubeId(getYouTubeId(videoURL));
+    setBgUrl(`https://img.youtube.com/vi/${getYouTubeId(videoURL)}/maxresdefault.jpg`);
+    window.scrollTo(0, 0);
+  }
+
   return (
     <PageDefault paddingAll={0}>
       {dadosIniciais.length === 0 && (<div>Loading...</div>)}
-
-      {dadosIniciais.map((categoria, indice) => {
-        if (indice === 0) {
-          return (
-            <div key={categoria.id}>
-              <BannerMain
-                videoTitle={dadosIniciais[0].videos[0].titulo}
-                url={dadosIniciais[0].videos[0].url}
-                videoDescription={dadosIniciais[0].videos[0].description}
-              />
-              <Carousel
-                ignoreFirstVideo
-                category={dadosIniciais[0]}
-              />
-            </div>
-          );
-        }
-
-        return (
-          <Carousel
-            key={categoria.id}
-            category={categoria}
-          />
-        );
-      })}
+      <div>
+        <BannerMain
+          videoTitle={selectedVideoTitle}
+          url={selectedVideoUrl}
+          videoDescription=""
+          youTubeID={youTubeID}
+          bgUrl={bgUrl}
+        />
+      </div>
+      {dadosIniciais.map((categoria) => (
+        <Carousel
+          key={categoria.id}
+          category={categoria}
+          onClick={handleClick}
+        />
+      ))}
 
     </PageDefault>
   );
